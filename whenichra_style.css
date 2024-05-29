@@ -1,0 +1,123 @@
+@font-face {
+  font-family: 'Realce'
+  src: url(Realce.otf);
+}
+
+body {
+  font-family: 'Realce', sans-serif;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: #424AFB;
+  color: #FFFFE7;
+}
+
+header {
+  text-align: center;
+  margin: 20px 0;
+}
+
+header h1 {
+  font-size: 55px;
+  color: #5AFEAE;
+  margin-bottom: 0px;
+}
+
+header h1 .not-if {
+  color: #FF8990;
+}
+
+header p {
+  font-size: 15px;
+  color: #FFFFE7;
+  margin-top: 0px;
+  margin-bottom: 5px;
+}
+
+.main-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.picker-container {
+  margin: 10px 0;
+}
+
+.picker-label {
+  margin-right: 3px;
+  font-size: 25px;
+  color: #FF8990;
+}
+
+#county-picker {
+  appearance: none;
+  background-color: #424AFB;
+  margin-bottom: 20px;
+  font-size: 25px;
+  color: #5AFEAE;
+  font-family: Realce;
+  padding: 0px;
+  text-align: left;
+  border-color: #424AFB;
+}
+
+.content-container {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  width: 100%;
+}
+
+.reactive-copy {
+  text-align: center;
+  margin-right: 80px;
+  margin-top: 30px;
+  font-size: 24px;
+}
+
+.total-score-label {
+  color: #FF8990;
+  font-size: 25px;
+  margin-bottom: 0px;
+  line-height: 1; 
+}
+
+.total-score-number {
+  color: #5AFEAE;
+  margin-top: 0px;
+  font-size: 70px;
+  line-height: 1;
+  margin-bottom: 20px; 
+}
+
+.conditional-text {
+  font-size: 34px;
+  color: #FFFFE7;
+  margin-top: 0px;
+}
+
+table {
+  width: 80%;
+  border-collapse: collapse;
+  color: #FFFFE7;
+  margin-top: 25px; 
+  margin-right: 20px; 
+}
+
+th, td {
+  padding: 5px;
+  text-align: center;
+}
+
+
+tbody tr td:nth-child(2),
+tbody tr td:nth-child(3) {
+  color: #FF8990;
+}
+
+tbody tr td:nth-child(4) {
+  color: #5AFEAE;
+}
